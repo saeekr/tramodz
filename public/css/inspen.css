@@ -1,0 +1,29 @@
+p{
+    font-size: 40px;
+    max-width: 100%;
+    height: auto;
+    margin-right: -70px;
+}
+
+@media(max-width:750px) {
+    .card-saldo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-saldo p {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: -150px;
+    }
+
+    .fa {
+        transform: scale(0.5);
+    }
+    .table-responsive{
+        max-width: 100%;
+    }
+    .table th,td{
+        font-size: 12px;
+    }
+}

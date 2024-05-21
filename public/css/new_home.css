@@ -1,0 +1,194 @@
+.all-about {
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 3.9px;
+    line-height: 40px;
+}
+
+.the-hitz-mana-gement {
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 12px;
+    line-height: 40px;
+}
+
+.kenali-dan-jelajahi {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 2.55px;
+    line-height: 40px;
+}
+
+.about-us {
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.text-wrapper-4 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: 4.35px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.img {
+    width: 400px;
+    float: center;
+}
+
+.sanggar-hitz {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    line-height: 40px;
+}
+
+.lokasi-latihan {
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    line-height: 40px;
+}
+
+.setono-pande-kec {
+    font-family: "Poppins", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 4.2px;
+    line-height: normal;
+}
+
+.overlap-group-2 {
+    position: relative;
+    width: 196px;
+    height: 72px;
+}
+
+.rectangle-2 {
+    width: 168px;
+    height: 58px;
+    top: 0;
+    left: 15px;
+}
+
+.open-on-google-map {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.map1 {
+    align-content: center;
+    border: 0;
+}
+
+.contact-information {
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: normal;
+}
+
+.hitz {
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.image0{
+    width: 30%;
+}
+.paragraph0{
+    width: 70%;
+}
+
+.vector {
+    width: 25px;
+    height: 22px;
+    top: 447px;
+    left: 50px;
+}
+
+@media(max-width:1000px) {
+    .content {
+        width: 45%;
+    }
+}
+
+@media(max-width:750px) {
+    .container {
+        width: 100%;
+        
+    }
+    .all-about{
+        margin-top: -30px;
+        font-size: 10px;
+        margin-bottom: -20px;
+        text-align: center;
+    }
+    .the-hitz-mana-gement{
+                margin-top: -10px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .kenali-dan-jelajahi{
+        font-size: 10px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .sanggar-hitz{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .logo{
+        max-width: 110%;
+        height: auto;
+    }
+    .img{
+        max-width: 100%;
+        height: auto;
+    }
+    .text-wrapper-4{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .map1{
+        max-width: 100%;
+    }
+    .lokasi-latihan{
+        font-size: 25px;
+    }
+    .setono-pande-kec{
+        font-size: 18px;
+    }
+}

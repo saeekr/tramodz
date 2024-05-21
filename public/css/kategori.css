@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-family: "Montserrat";
+    background-color: #212121;
+    margin-bottom: 5cm;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+    padding-top: 10px
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.6cm;
+}
+.content{
+    width: 20%;
+    margin: 60px;
+    margin-top: 3cm;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 30px 6px rgba(0,0,0,0.16), 0 3 px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+    color: #EE99C2;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.body li{
+    padding: 5px;
+}
+section h4{
+    color: white;
+    font-family: sans-serif;
+    font-family: "Montserrat";
+    margin-bottom: 50px;
+}
+.form-label{
+    color: white;
+    font-family: sans-serif;
+    font-family: "Montserrat";
+}
+/* .fa{
+    font-size: 26px;
+    transition: .4s;
+} */
+.checked{
+    color: #ff9f43;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+.content button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding:15px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.book-1{
+    background: #2183a2;
+}
+.book-2{
+    background: #2183a2;
+}
+.book-3{
+    background: #2183a2;
+}
+
+.book-4{
+    background: #2183a2;
+}
+.book-5{
+    background: #2183a2;
+}
+.container button{
+    width: 100%;
+}
+ #reservationText {
+     color: white;
+     padding: 20px;
+     font-family: "Montserrat";
+     font-size: 20px;
+ }
+
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+
+
+

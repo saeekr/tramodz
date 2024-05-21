@@ -1,0 +1,71 @@
+body {
+    background: #212121;
+    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #212121;
+    /* background-color: #000000; */
+}
+
+/* Optional: Add a shadow or border to the navbar for better visibility when scrolled */
+.navbar:not(:target):not(:focus-within) {
+    box-shadow: 0 1px 5px #000000;
+}
+.navbar a{
+    text-align: center;   
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+.navbar h1{
+    font-size: 40px;
+}
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    transition: color 0.5s;
+}
+.navbar-nav .nav-link:hover {
+    color: #EE99C2;
+}
+.navbar-nav button{
+    color: #000000;
+    background-color: #EE99C2;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    line-height: 30px;
+    width: 100%;
+    padding: 0 8px;
+}
+.navbar-nav button:hover {
+    color: rgb(255, 255, 255);
+}
+.fa{
+    font-size: 30px;
+}
+
+
+
+
+/* style login & register */
+.text-pink {
+    color: #EE99C2;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #EE99C2 !important;
+    border-color: #EE99C2
+}
+
+.register-card-bg {
+    background-color: white;
+}
